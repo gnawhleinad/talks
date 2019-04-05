@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>business account: q5</title>
+    <title>@gnawhleinad</title>
     <meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Roboto);
+      @import url(https://octicons.github.com/octicons-logos/octicons-logos.css);
 
       body { font-family: 'Droid Serif'; }
       h1, h2, h3 {
@@ -17,53 +19,135 @@
       a { color: #f3f3f3; }
       blockquote {
         font-style: italic;
-        font-size: 13px;
+        font-size: 30px;
         border-left: 0.25em solid #dfe2e5;
         padding: 0 1em;
       }
       img { max-width: 100%; }
-      .footnote img {
-        max-width: 10%;
-        border-radius: 6px;
-        padding-right: 2px;
+      .half img { max-width: 50%; }
+      .footnote {
+        font-family: 'Yanone Kaffeesatz';
         float: right;
-      }
-      .left-column {
-        float: left;
-        width: 50%;
-        font-size: 12px;
-      }
-      .right-column {
-        float: right;
-        width: 45%;
-      }
-      .left-half-column {
-        float: left;
-        width: 47.5%;
-        font-size: 12px;
-      }
-      .right-half-column {
-        float: right;
-        width: 47.5%;
-        font-size: 12px;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
       .remark-slide-content {
         background: #24292e;
-        color: #bfbfbf;
-        font-size: 14px;
+        color: #fff;
+        font-size: 32px;
+      }
+      .remark-slide-content h1 { font-size: 70px; }
+      .remark-slide-content h2 { font-size: 60px; }
+      .remark-slide-content h3 { font-size: 42px; }
+
+      .business-card {
+        background: #fafbfc;
+        color: #24292e;
+        font-family: 'Roboto';
+      }
+      .business-card-logo {
+        float: left;
+        width: 45%;
+      }
+      .business-card-info {
+        float: right;
+        width: 50%;
+        font-family: 'Ubuntu Mono';
+      }
+      .business-card-info h2 {
+        color: #24292e;
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: bold;
+        font-size: 82px;
+        margin-bottom: 15px;
+      }
+      .business-card-info h3 {
+        color: #24292e;
+        font-family: 'Ubuntu Mono';
+        font-weight: bold;
+        font-size: 41px;
+        margin-top: 15px;
+        margin-bottom: 3px;
+      }
+      .business-card-info h4 {
+        color: #24292e;
+        font-family: 'Ubuntu Mono';
+        font-style: italic;
+        font-size: 20px;
+        margin-top: 3px;
+      }
+
+      .three-column {
+        float: left;
+        width: 33.33%;
+        font-family: 'Ubuntu Mono';
+        font-size: 40px;
+      }
+      .three-column:nth-of-type(2) img {
+        height: 75%;
+        width: 75%;
+      }
+      .three-column:last-of-type {
+        margin-top: 50px;
+        fill: #fff;
+      }
+
+      .three-row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .participants {
+        background: #fafbfc;
+      }
+      .participants h3 {
+        color: #586069;
+        font-family: 'Roboto';
+        font-weight: bold;
+      }
+      .participants img {
+        border-radius: 6px;
+        padding-right: 2px;
+        width: 150px;
+      }
+
+      .four-column {
+        float: left;
+        font-family: 'Ubuntu Mono';
+        font-size: 20px;
+        margin: 0;
+      }
+      .four-column:nth-of-type(odd) {
+        width: 35%;
+      }
+      .four-column:nth-of-type(even) {
+        width: 15%;
+        margin-top: 35px;
+      }
+      .four-column h1 {
+        font-size: 80px;
+        font-weight: bold;
       }
     </style>
   </head>
   <body>
     <textarea id="source">
+class: business-card, middle
 
-gnawhleinad
-senior product manager
+.business-card-logo[
+<svg height="300" width="300" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+]
+.business-card-info[
+## @gnawhleinad
+### Daniel Hwang
+#### Senior Product Manager
+]
 
 ---
 
-intent
+class: middle
+
+## I'd like to...
 
 - share my professional journey
 - share my learnings as a product manager
@@ -71,149 +155,245 @@ intent
 
 ---
 
-timeline?
+class: middle, center
 
-uc berkeley
-bigfix ibm
-github
+.three-row[
+.three-column[
+![berkeley]
+
+2008
+]
+.three-column[
+![bigfix]
+
+2010
+]
+.three-column[
+
+<svg height="150" width="150" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+
+2015
+]
+]
+
+[berkeley]: berkeley.png
+[bigfix]: bigfix.png
 
 ---
 
-i made the transition to product management because...
+class: middle
 
-- i love learning and have major fomo
-  - product managers work with _everyone_ in the company and spans multiple
-    disciplines
-- i'm passionate about vision and execution
-  - product managers lead their domain / team with strategic vision to
-    encourage behavior and address painpoints
-- i have role models who happen to be product managers
+## I made the transition to product management because...
+
+- I **love** to learn about _everything_
+- I am very **passionate** about vision and execution
+- I have **incredible** role models who happen to be product managers
 
 ---
 
-today, i work on the enterprise persona but when i started i worked solely on
-github enterprise server
+class: middle
+
+## Today, I work on the **enterprise** persona
 
 ---
 
-tangent and FYI
+class: middle, center
 
-January 2019
+![github-enterprise]
+
+.footnote[
 https://github.com/enterprise
+]
 
-GitHub Enterprise
-
----
-
-the first major functionality that i worked on was pre-receive hooks
-
-(and, it shipped in GitHub Enterprise 2.6.0)
+[github-enterprise]: github-enterprise.png
 
 ---
 
-https://github.com/github/enterprise2/issues/5977
+class: middle
 
-GitHub operates very transparently and is very good about using written
-communication
+## The first major functionality that I worked on was `pre-receive` hooks!
 
 ---
 
+class: middle
+
+![2-6-0-release-notes]
+
+[2-6-0-release-notes]: 2-6-0-release-notes.png
+
+---
+
+class: middle
+
+![pre-receive-hooks]
+
+[pre-receive-hooks]: pre-receive-hooks.png
+
+---
+
+class: participants, middle
+
+### 7 participants
+
+![mcolyer]
+![willabides]
+![gnawhleinad]
+![dbussink]
+![rubiojr]
+![jordemort]
+![mwiesen]
+
+[mcolyer]: mcolyer.jpg
+[willabides]: willabides.jpg
+[gnawhleinad]: gnawhleinad.jpg
+[dbussink]: dbussink.jpg
+[rubiojr]: rubiojr.jpg
+[jordemort]: jordemort.png
+[mwiesen]: mwiesen.jpg
+
+---
+
+class: middle
+
+![diversity]
+
+.footnote[
 https://github.com/about/diversity
+]
 
-> 67% don't work in headquarters
-
----
-
-rely on asynchronous communication because:
-
-- mcolyer SF
-- willabides Austin, TX
-- dbussink Netherlands
-- rubiojr Spain
-- jordemort Chicago, IL
-- mwiesen Germany
-
-it's great because you also have a written record of your decisions and train of
-thought so that future decisions can take _that_ into consideration
-
-what's powerful about asynchronous communication is that it allows you to
-prioritize what's important and invest time to have an informed input
+[diversity]: diversity.png
 
 ---
 
-transparency!
+class: middle
 
-FYI, github records feedback in a repository
-https://github.com/github/customer-feedback
+## The benefits of an asynchronous culture...
 
-it allows _anyone_ in the company to share feedback from a customer so that
-project leads can use that feedback when advocating or prioritizing features
-
-https://github.com/github/customer-feedback/issues/41
-
-https://github.com/github/enterprise2/issues/5977#issuecomment-155637375
-
-allows you to be cross-discipline
+- there's a written record of your [team's] train of thought for a decision
+  *and* future decisions can take it into consideration
+- it allows you to prioritize what's important and invest time in other
+  conversations so that you can contribute with an informed perspective
 
 ---
 
-with transparency and async workflows, we can have cross-discipline, diverse
-culture and thought minded workflows and solutions
+class: middle
+
+## GitHub also operates transparently.
 
 ---
 
-another example of how the transparency / async workflow manifests into value
-for us internally and for you, our customers:
+class: middle
 
-https://github.com/github/business-support/issues/770#issuecomment-232171792
+## e.g., **github/customer-feedback**
 
 ---
 
-one of my favorite learnings as a product manager was from former VP of
-product @kakuls and it was something along the lines of:
+class: middle
+
+![customer-feedback]
+
+[customer-feedback]: customer-feedback.png
+
+---
+
+class: middle
+
+![pre-receive-customer-feedback]
+
+[pre-receive-customer-feedback]: pre-receive-customer-feedback.png
+
+---
+
+class: middle
+
+![pre-receive-analysis]
+
+[pre-receive-analysis]: pre-receive-analysis.png
+
+---
+
+class: middle
+
+## GitHub's culture of transparency and asynchronous workflow allows cross-discipline, diverse discussions which creates a more informed solution.
+
+---
+
+class: middle
+
+> Just wanted to give a shoutout to everyone for all the contributions lately. Of the 13 bullet points in the 2.6.5 Bug Fixes and Changes, team @github/enterprise-support reported 12 of them and helped to fix 5. Great work! 👏⚡
+
+.right[
+**@jatoben**, Senior Support Engineer
+]
+
+---
+
+class: middle
 
 > product vision isn't owned by product managers
 > ...
 > the best ideas can come from _anyone_
 
----
+.right[
+**@kakuls**, former VP of Product
 
-github is in a very fun and fortunate domain where we're a software company
-working on a software product for software developers
-
-we're privileged to have incredible talent passionate about solving their
-software problems for us and others
+(_quote is paraphrased_)
+]
 
 ---
 
-github's vision is to allow _insert-software-people_ to collaborate with others
-not necessarily in the _same way_ that github does but, hopefully, with the same
-underlying principles
+class: middle, center
 
-but we can't do it alone; and it's been dangerous for us to think that our
-solution will be _your_ solution.
+.four-column[
+# GitHub
+]
+.four-column[
+<br>
+is a<br>
+is a<br>
+is for
+]
+
+.four-column[
+# _software_
+]
+
+.four-column[
+<br>
+company<br>
+product<br>
+developers<br>
+]
 
 ---
 
-one of the things that github is doing now is practicing what's called _lean
-customer development_
+class: middle, center
 
-https://www.cindyalvarez.com/lean-customer-development/
+.half[
+![lean-customer-development]
+]
 
----
-
-my biggest value and learning is it's structure / process to allow technology
-/ product leadership to use more objective evidence to shape our vision and work
+[lean-customer-development]: lean-customer-development.jpg
 
 ---
 
-https://github.com/github/enterprise-product/issues/62
+class: middle
+
+![business-account-development]
+
+[business-account-development]: business-account-development.png
 
 ---
 
-thanks for listening.
+class: middle
 
-and, thanks for your ongoing support. we need it to make the best product.
+## Thanks for listening.
+
+and, thanks for your ongoing support. We need it to make the best product.
+
+.footnote[
+### https://github.com/gnawhleinad/talks
+]
     </textarea>
     <script src="remark-latest.min.js">
     </script>
